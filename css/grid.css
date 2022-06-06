@@ -1,0 +1,11 @@
+/* div {
+    border: solid .2rem red;
+} */
+
+.container {
+    width: 100%;
+    max-width: 1246px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    /* border: solid .2rem blue; */
+}

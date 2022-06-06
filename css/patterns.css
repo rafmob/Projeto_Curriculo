@@ -1,0 +1,119 @@
+body {
+    background-color: var(--r-cinza-escuro);
+}
+
+h1,h2,h3 {
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: -1px;
+    color: var(--white);
+}
+
+h1{
+    font-size: 4.8rem;
+    color: var(--white);
+}
+  
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+.btn-primary {
+    font-family: 'Sora', sans-serif;
+    display: inline-block;
+    background-color: var(--r-vermelho);
+    border-radius: .5rem;
+    padding: 1.2rem 3.4rem;
+    font-weight: 600;
+    letter-spacing: -0.01;
+    color: var(--gray-colors-100);
+}
+
+.btn-primary:hover {
+    color: var(--white);
+}
+
+.menu-item {
+    display: inline-block;
+    background-color: transparent;
+    font-size: 1.5rem;
+    line-height: 105%;
+    letter-spacing: -0.01em;
+    color: var(--white);
+}
+
+.menu-item:hover {
+    color: var(--r-vermelho);
+}
+
+/* BARRA DE PROGRESSO */
+
+.progress1{
+    height: 15px;
+    background-color: #777;
+    position: relative;
+}
+
+.progress1 .progress-bar{
+   position: absolute;
+   height: 100%;
+   background-color: var(--r-vermelho);
+   animation: progress-animation 6s infinite;
+}
+
+
+@keyframes progress-animation{
+    0% { width: 0%; }
+    
+    50% { width: 50%}
+
+    100% { width: 50%}
+    
+}
+
+.progress2{
+    height: 15px;
+    background-color: #777;
+    position: relative;
+}
+
+.progress2 .progress-bar{
+   position: absolute;
+   height: 100%;
+   background-color: var(--r-vermelho);
+   animation: progress-animation 6s;
+}
+
+
+@keyframes progress-animation{
+    0% { width: 0%; }
+    
+    100% { width: 100%}
+    
+}
+
+.progress3{
+    height: 15px;
+    background-color: #777;
+    position: relative;
+}
+
+.progress3 .progress-bar{
+   position: absolute;
+   height: 100%;
+   background-color: var(--r-vermelho);
+   animation: progress-animation 6s;
+}
+
+
+@keyframes progress-animation{
+    0% { width: 0%; }
+    
+    100% { width: 100%}
+    
+}
