@@ -52,6 +52,11 @@ header nav .btn-primary {
 .s-hero .text {
     width: 100%;
     max-width: 64rem;
+
+}
+
+.s-hero .sobre{
+    margin-left: 1.5rem;
 }
 
 .s-hero .text .saudacao {
