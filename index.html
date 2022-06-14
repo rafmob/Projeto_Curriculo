@@ -22,24 +22,27 @@
             <a href="./" class="logo">
                 <img src="img/logo-01.png" alt="logo do site">
             </a>
-
+            
             <nav>
                 <ul>
                     <li>
                        <a href="" class="menu-item">Sobre Mim</a> 
                     </li>
                     <li>
-                        <a href="" class="menu-item">Serviços</a> 
+                        <a href="#menu-servicos" class="menu-item">Serviços</a> 
                      </li>
                      <li>
-                        <a href="" class="menu-item">Minhas Skills</a> 
+                        <a href="#menu-projetos" class="menu-item">Projetos</a> 
                      </li>
                      <li>
-                        <a href="" class="menu-item">Projetos</a> 
+                        <a href="menu-skills" class="menu-item">Minhas Skills</a> 
                      </li>
                 </ul>
-                <button class="btn-primary">Contato</button>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=5531994778750" class="btn-primary">Whatsapp</a>
             </nav>
+            <a href="" class="menu-item menu-mobile">
+                <img src="img/menu.svg" alt="logo do site">
+            </a>
         </div>
     </header>
 
@@ -49,11 +52,11 @@
                 <h2 class="saudacao">Olá, eu sou o</h2>
                 <h1>RAFAEL MENDES</h1>
                 <h2 class="stack">Desenvolvedor Front-end</h2>
-                <a target="_blank" href="https://drive.google.com/file/d/1JlOqbfYJSavMoFh-ea0hdaEA853iysLH/view?usp=sharing" class="btn-primary">Baixar Currículo</a>
+                <a target="_blank" href="https://drive.google.com/file/d/1riYqCJViXt4FiB4N3Ttytrg7A1lPgcZI/view?usp=sharing" class="btn-primary">Baixar Currículo</a>
             </div>
 
             <div class="image">
-                <img src="img/5814968@0,5x.png" alt="">
+                <img src="img/5814968@0,5x.png" alt="" class="perfil">
             </div>
 
             <div class="text sobre">
@@ -66,7 +69,7 @@
     <section class="s-card-featured">
         <div class="container">
             <div class="main-area">
-                <div class="title center">
+                <div class="title center" id="menu-servicos">
                     <h2>Serviços</h2>
                 </div>
                 <div class="all-cards">
@@ -77,9 +80,6 @@
                         <div class="info">
                             <h3>Desenvolvedor Web</h3>
                             <p>Desenvolvedor de Sites, HotSites, especialista em HTML, CSS, JavaScript e React JS.</p>
-                            <!-- <div class="progress1">
-                                <div class="progress-bar"></div>
-                            </div> -->
                         </div>
                     </div>
                     <div class="card white">
@@ -89,9 +89,6 @@
                         <div class="info">
                             <h3>UI Design</h3>
                             <p>Desenvovimento e prototipagem de interfaces para aplicativos, sites e dashboards.</p>
-                            <!-- <div class="progress2">
-                                <div class="progress-bar"></div>
-                            </div> -->
                         </div>
                     </div>
                     <div class="card">
@@ -101,65 +98,92 @@
                         <div class="info">
                             <h3>Desenvolvedor<br>Front-end</h3>
                             <p>HTML5, CSS, JavaScript, React JS e PHP.</p>
-                            
-                            <!-- <div class="progress3">
-                                <div class="progress-bar"></div>
-                            </div>
-                            </div> -->
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="second-area">
+            <div class="main-area-projeto">
+                <div class="title center">
+                    <h2>Projetos</h2>
+                </div>
+                <div class="all-cards-projetos" id="menu-projetos">
+                    <div class="card-projeto">
+                        <div class="img-projeto">
+                            <a href="https://projeto-c7.herokuapp.com/#"><img src="img/Projeto01-09.png"></a>
+                        </div>
+                        <div class="info">
+                            <h3>Catálogo de Filmes</h3>
+                        </div>
+                    </div>
+
+                    <div class="card-projeto">
+                        <div class="img-projeto">
+                            <img src="img/Projeto02-10.png">
+                        </div>
+                        <div class="info">
+                            <h3>Jogo do Humor</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="second-area" id="menu-skills">
                 <div class="top">
                     <div class="title">
-                        <h2>Título</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                        <h2>Conhecimentos</h2>
+                        <p>Um pouco sobre minhas skills.</p>
                     </div>
-                    <a href="" class="btn-primary">Call to Action!</a>
                 </div>
                 <div class="all-imgs">
                     <div class="image">
-                        <img src="img/thumb.svg" alt="">
+                        <img src="img/skills/img-skill-HTML5.png" alt="HTML5">
+                        <h3>HTML5</h3>
                     </div>
                     <div class="image">
-                        <img src="img/thumb.svg" alt="">
+                        <img src="img/skills/img-skill-CSS3.png" alt="CSS3">
+                        <h3>Teste</h3>
                     </div>
                     <div class="image">
-                        <img src="img/thumb.svg" alt="">
+                        <img src="img/skills/img-skill-JS.png" alt="JavaScript">
+                        <h3>JavaScript</h3>
                     </div>
                     <div class="image">
-                        <img src="img/thumb.svg" alt="">
+                        <img src="img/skills/img-skill-React.png" alt="ReactJS">
+                        <h3>ReactJS</h3>
                     </div>
                     <div class="image">
-                        <img src="img/thumb.svg" alt="">
+                        <img src="img/skills/img-skill-PHP.png" alt="PHP">
+                        <h3>PHP</h3>
                     </div>
                     <div class="image">
-                        <img src="img/thumb.svg" alt="">
+                        <img src="img/skills/img-skill-MySQL.png" alt="MySQL">
+                        <h3>MySQL</h3>
                     </div>
                     <div class="image">
-                        <img src="img/thumb.svg" alt="">
+                        <img src="img/skills/img-skill-Node.png" alt="NodeJS">
+                        <h3>NodeJS</h3>
                     </div>
                     <div class="image">
-                        <img src="img/thumb.svg" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="img/thumb.svg" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="img/thumb.svg" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="img/thumb.svg" alt="">
-                    </div>
-                    <div class="image">
-                        <img src="img/thumb.svg" alt="">
+                        <img src="img/skills/img-skill-Git.png" alt="Git">
+                        <h3>Git</h3>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <footer>
+        <div class="container">
+            <div class="copy">
+                <p>2021 © Todos os direitos reservados. <strong>Rafael Mendes</strong></p>
+                <div class="group">
+                    <img src="img/logo-01.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
