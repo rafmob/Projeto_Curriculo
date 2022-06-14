@@ -35,7 +35,7 @@
                         <a href="#menu-projetos" class="menu-item">Projetos</a> 
                      </li>
                      <li>
-                        <a href="menu-skills" class="menu-item">Minhas Skills</a> 
+                        <a href="#menu-skills" class="menu-item">Minhas Skills</a> 
                      </li>
                 </ul>
                 <a target="_blank" href="https://api.whatsapp.com/send?phone=5531994778750" class="btn-primary">Whatsapp</a>
@@ -54,6 +54,8 @@
                 <h2 class="stack">Desenvolvedor Front-end</h2>
                 <a target="_blank" href="https://drive.google.com/file/d/1riYqCJViXt4FiB4N3Ttytrg7A1lPgcZI/view?usp=sharing" class="btn-primary">Baixar Currículo</a>
             </div>
+
+            
 
             <div class="image">
                 <img src="img/5814968@0,5x.png" alt="" class="perfil">
@@ -110,7 +112,7 @@
                 <div class="all-cards-projetos" id="menu-projetos">
                     <div class="card-projeto">
                         <div class="img-projeto">
-                            <a href="https://projeto-c7.herokuapp.com/#"><img src="img/Projeto01-09.png"></a>
+                            <a target="_blank" href="https://projeto-c7.herokuapp.com/"><img src="img/Projeto01-09.png"></a>
                         </div>
                         <div class="info">
                             <h3>Catálogo de Filmes</h3>
@@ -119,7 +121,7 @@
 
                     <div class="card-projeto">
                         <div class="img-projeto">
-                            <img src="img/Projeto02-10.png">
+                            <img src="img/Projeto02-10.png" onclick="openModal('dv-modal')">
                         </div>
                         <div class="info">
                             <h3>Jogo do Humor</h3>
@@ -173,6 +175,26 @@
         </div>
     </section>
 
+
+
+    <section>
+        <div id="dv-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Projeto Jogo do Humor</h2>
+                </div>
+
+                <div class="modal-body">
+                        <img src="/img/projeto02M.png" alt="The Witcher" style="width: 100%;">
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn-primary" onclick="closeModal('dv-modal')">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
             <div class="copy">
@@ -183,6 +205,10 @@
             </div>
         </div>
     </footer>
+
+    <div class="modal-footer">
+        <button class="btn" onclick="closeModal('dv-modal')">Fechar</button>
+    </div>
 
     <script src="script.js"></script>
 </body>
