@@ -281,3 +281,55 @@ footer .copy .group span {
     color: var(--white);
     margin-right: 0.8rem;
 }
+
+
+/* MODAL */
+
+
+.modal {
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    
+}
+
+.btn {
+    background-color: var(--r-vermelho);
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+    color: #FFF;
+    display: none;
+}
+
+.btn:hover {
+    background-color: var(--white);
+    color: var(--r-vermelho);
+}
+
+.modal-content {
+    margin: 0 auto;
+    margin-top: 3%;
+    max-width: 600px;
+    background-color: #eee;
+    padding: 0;
+    box-shadow: 0 0 2px #fff;
+}
+
+.modal-header h1{
+    font-weight: bold;
+    text-align: center;
+}
+
+.modal-header, .modal-body, .modal-footer{
+    padding: 10px;
+}
+
+.modal-header{
+    background-color: var(--r-vermelho);
+}
