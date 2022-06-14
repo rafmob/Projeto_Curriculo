@@ -13,6 +13,7 @@ h1,h2,h3 {
 h1{
     font-size: 4.8rem;
     background-color: var(--r-vermelho);
+    display: inline;
 }
   
 h2 {
@@ -31,11 +32,11 @@ h3 {
     padding: 1.2rem 3.4rem;
     font-weight: 600;
     letter-spacing: -0.01;
-    color: var(--gray-colors-100);
+    color: var(--white);
 }
 
 .btn-primary:hover {
-    color: var(--white);
+    color: var(--gray-colors-100);
 }
 
 .menu-item {
@@ -49,71 +50,4 @@ h3 {
 
 .menu-item:hover {
     color: var(--r-vermelho);
-}
-
-/* BARRA DE PROGRESSO */
-
-.progress1{
-    height: 15px;
-    background-color: #777;
-    position: relative;
-}
-
-.progress1 .progress-bar{
-   position: absolute;
-   height: 100%;
-   background-color: var(--r-vermelho);
-   animation: progress-animation 6s infinite;
-}
-
-
-@keyframes progress-animation{
-    0% { width: 0%; }
-    
-    50% { width: 50%}
-
-    100% { width: 50%}
-    
-}
-
-.progress2{
-    height: 15px;
-    background-color: #777;
-    position: relative;
-}
-
-.progress2 .progress-bar{
-   position: absolute;
-   height: 100%;
-   background-color: var(--r-vermelho);
-   animation: progress-animation 6s;
-}
-
-
-@keyframes progress-animation{
-    0% { width: 0%; }
-    
-    100% { width: 100%}
-    
-}
-
-.progress3{
-    height: 15px;
-    background-color: #777;
-    position: relative;
-}
-
-.progress3 .progress-bar{
-   position: absolute;
-   height: 100%;
-   background-color: var(--r-vermelho);
-   animation: progress-animation 6s;
-}
-
-
-@keyframes progress-animation{
-    0% { width: 0%; }
-    
-    100% { width: 100%}
-    
 }

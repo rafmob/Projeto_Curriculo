@@ -18,6 +18,10 @@ header nav {
     align-items: center;
 }
 
+header .menu-mobile {
+    display: none;
+}
+
 header nav ul {
     display: flex;
     margin-right: 3.2rem;
@@ -109,13 +113,12 @@ header nav .btn-primary {
 
 .s-card-featured .main-area {
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
-    padding-bottom: 12.5rem;
+    padding-bottom: 10.5rem;
 }
 
 .s-card-featured .title {
     display: flex;
     flex-direction: column;
-
 }
 
 .s-card-featured .title.center {
@@ -174,7 +177,47 @@ header nav .btn-primary {
     line-height: 150%;
 }
 
-.s-card-featured .all-cards .card .info .progress {
+.all-cards-projetos{
+    display: flex;
+    justify-content: center;
+}
+
+.all-cards-projetos .card-projeto {
+    margin-right: 5rem;
+    margin-top: 3rem;
+}
+
+.all-cards-projetos .card-projeto:last-child {
+    margin-right: 0;
+}
+
+.main-area-projeto h2 {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.s-card-featured .all-cards-projetos .card-projeto {
+    width: 100%;
+    max-width: 38.4rem;
+    height: 42.2rem;
+    background-color: rgba(28, 29, 31, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.s-card-featured .all-cards-projetos .card-projeto .info {
+    margin-top: 2rem;
+    max-width: 28.8rem;
+}
+
+.s-card-featured .all-cards-projetos .card-projeto .info h3 {
+    text-align: center;
+}
+
+.s-card-featured .all-cards-projetos .card-projeto .info p {
     text-align: center;
     margin-top: .8rem;
     line-height: 150%;
@@ -186,6 +229,11 @@ header nav .btn-primary {
     margin-top: 11.2rem;
 }
 
+.second-area .top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6.4rem;
+}
 .s-card-featured .second-area .top {
     display: flex;
     align-items: center;
@@ -196,14 +244,40 @@ header nav .btn-primary {
 .s-card-featured .second-area .all-imgs {
     display: flex;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 48px;
 }
 
 .s-card-featured .second-area .all-imgs .image {
-    width: 17.6rem;
-    height: 11.2rem;
+    width: 26.8rem;
+    height: 17rem;
     background-color: var(--gray-colors-200);
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+/* FOOTER */
+
+footer .copy {
+    margin-top: 2.4rem;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.1rem; 
+}
+
+footer .copy p {
+    color: var(--white);
+}
+
+footer .copy .group {
+    display: flex;
+    align-items: center;
+}
+
+footer .copy .group span {
+    color: var(--white);
+    margin-right: 0.8rem;
 }
